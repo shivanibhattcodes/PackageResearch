@@ -4,8 +4,8 @@
 
 ## Install and Run Instructions
   The user must have Python 3.5.3. and above in order to install Pandas. Furthermore, Pandas is dependent on other libraries many times - like NumPy and Matplotlib. Hence, the easiest way to get Pandas is through a package like Anaconda Distribution. This distribution platform is very useful for data analysis and scientific computing. You can install Anaconda Distribution for Windows, MacOS, or Linux via this link: https://www.anaconda.com/products/individual . After installing this, use the following code in order to import both pandas and numpy into your Python IDE: 
-           **     import pandas as pd 
-                import numpy as np**
+                              import pandas as pd 
+                              import numpy as np 
 
 ## Code 
 
