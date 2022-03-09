@@ -1,8 +1,9 @@
 # Midterm Project - Package Research - Shivani Bhatt 
-## Package Summary
 
-### Install and Run Instructions
+# Package Summary 
 
-#### Code
+# Install and Run Instructions
 
-##### Future Idea
+# Code 
+
+# Future Idea
