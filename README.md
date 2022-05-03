@@ -1,17 +1,6 @@
-# Pandas: Python Data Analysis Library
-## Package Summary 
-  Pandas is a game changer when it comes to data analysis using Python. It is open source and free to use under a BSD License. THe original code is credited to Wes McKinney. High level use of Pandas includes taking data (usually via a CSV file or SQL database) and creating a python object that has capabilities similar to that of Microsoft Excel. 
-
+# Final Project - Password Manager 
 ## Install and Run Instructions
   The user must have Python 3.5.3. and above in order to install Pandas. Furthermore, Pandas is dependent on other libraries many times - like NumPy and Matplotlib. Hence, the easiest way to get Pandas is through a package like Anaconda Distribution. This distribution platform is very useful for data analysis and scientific computing. You can install Anaconda Distribution for Windows, MacOS, or Linux via this link: https://www.anaconda.com/products/individual . In order to create an Anaconda environment after installing, you must open your Terminal prompt and run the following code: conda create -n myenv python=3.9 pandas jupyter seaborn scikit-learn keras tensorflow to create an environment named myenv. 
   After installing the Anaconda Distribution, make sure your Visual Studio Code has the following extensions: Python Extension for VS Code and Jupyter Extension for VS Code. You will then open Visual Studio Code and create a Jupyter notebook. After doing so, click "Select Kernal" at the top right of the screen. Select the Python environment created previously equipped with Anaconda Distribution. 
-  The last step is to import the libraries we will need in order to efficiently use Pandas & additional libraries for extra support. First, open Terminal and use the "-pip install" functions to bring in pandas and numpy. Then, following code is used to import those libraries within our Jupyter notebook: "import pandas as pd" & "import numpy as pd".
-  Now you are all set to use Pandas and Numpy in order to analyze data!
-
-## Code 
-Primarily, lines 1 and 2 of my code are useful in importing the pandas and numpy libraries. Line 3 is essential as it allows pandas to read the CSV file. This CSV file is created by me in Microsoft Excel in order to demonstrate the practical uses of the pandas package. Line 6 is a demonstration of how you can use pandas - and a control flow statement - in order to create a new column within your file and then analyze your pre-existing data to add new information. In line 6, the lambda function creates a new column, whereas our control flow statement determines whether a student passed or failed. Next, in Line 9 of the code, a new variable is assigned to the input of a user who wishes to see if they passed or failed the exam. Line 10 uses the "int()" function in order to make the user's input into an integer so that the program may use a greater than/equal to function. In lines 10 and 12, we are also  using a control flow statement to tell the user whether they passed or failed based on their input.
-
-To view the complete code, please open the "hello.ipynb" file. 
-
-## Future Idea
-This package can prove useful in all data anlysis. Something very relevant is Covid-19 and the overturned mask mandate. This package can be very useful in analyzing future data regarding Covid-19 positive cases after the mask mandate is lifted. A CSV file of all Covid tests done at Rutgers University can be read by the program. Then, we can clean the data using pandas functions. Furthermore, we are able to filter for positive results and then compare this to positive results prior to the mask mandate being lifted (this would be another CVS file import). 
+  The last step is to import the libraries we will need in order to efficiently use Pandas & additional libraries for extra support. First, open Terminal and use the "-pip install" functions to bring in pandas and numpy. Then, following code is used to import Pandas within our program: "import pandas as pd". 
+  Now you are all set to use Pandas within Jupyter Notebook in order to develop your code! 
